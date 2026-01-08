@@ -16,7 +16,7 @@ header{
     height: 837px;
  background-color:#FFF8F3;   
  margin:0 auto;
- padding-top:50px 22px;
+ padding:50px 0px 0px  22px;
  background-image: url('./images/developer.png'),url("./images/header_bg.png");
 background-repeat: no-repeat;
 background-position: bottom left, bottom right;
@@ -72,7 +72,7 @@ nav .menu a{
     justify-content: center;
 }
 #banner{
-margin: 46px 0px 229px 39px;
+margin: 46px 39px 0px 71px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -89,7 +89,7 @@ align-items: center;
 .banner-content{
     max-width:585px;
     height: 356px;
-    padding-left:180px;
+    padding:0px;
 }
 .banner-content h2{
     font-size: 45px;
