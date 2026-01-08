@@ -1,6 +1,60 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
-body{
-    background-color: red;
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+header{
+ background-color:#FFF8F3;   
+ margin:0 auto;
+ padding:50px;
+
+
+}
+nav{
+
+    display: flex;
+    gap: 20px;
+    width: 71%;
+    height:13%;
+    max-width: 1140px;
+    justify-content: space-between;
+}
+.btn{
+    width: 150px;
+    height: 60px;
+    border: none;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius:5px;
+    padding: 18px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.red{
+    color:red;
+}
+.logo{
+    color:black;
+    font-size:45px;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
 }
