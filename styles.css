@@ -16,7 +16,7 @@ header{
     height: 837px;
  background-color:#FFF8F3;   
  margin:0 auto;
- padding:50px 0px 0px  22px;
+ padding:50px 0px 21px  22px;
  background-image: url('./images/developer.png'),url("./images/header_bg.png");
 background-repeat: no-repeat;
 background-position: bottom left, bottom right;
